@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bg_nor_start">#00c896</color>
+    <color name="bg_nor_center">#5ed080</color>
+    <color name="bg_nor_end">#b9d264</color>
+    <color name="bg_ala_start">#ffa438</color>
+    <color name="bg_ala_center">#ff8548</color>
+    <color name="bg_ala_end">#ff6459</color>
+    <color name="color_blue">#03A9F4</color>
+    <color name="color_yellow">#FEFF02</color>
+    <color name="color_white">#FFFFFF</color>
+
+
+    <!-- 设计规范颜色 -->
+    <color name="xiyou_black">#6c6155</color>
+    <color name="xiyou_brown">#c3a582</color>
+    <color name="xiyou_gray">#a09a95</color>
+    <color name="xiyou_hint">#c8c8c8</color>
+    <color name="xiyou_red">#ff5073</color>
+    <color name="xiyou_pink">#ff87a0</color>
+    <color name="xiyou_orange">#ffb14c</color>
+    <color name="xiyou_green">#b0d25b</color>
+    <color name="xiyou_green_boss">#10b524</color>
+    <color name="xiyou_purse">#d099d0</color>
+    <color name="xiyou_white">#ffffff</color>
+    <color name="xiyou_touming">#00ffffff</color>
+    <color name="xiyou_blue">#8bd3ef</color>
+
+    <color name="xiyou_yellow">#ffecd4</color>
+    <color name="xiyou_translucent">#7f000000</color>
+    <color name="trans_color">#00000000</color>
+    <color name="xiyou_bg_color">#f5f0eb</color>
+    <!-- 设计规范颜色 -->
+    <color name="xiyou_guide_dot_normal">#f3a1b6</color>
+    <!-- 特殊颜色 -->
+    <color name="txt_count">#ff87a0</color>
+    <color name="x_rect">#fffcf6</color>
+    <color name="dynamic_image_bg">#e9e4df</color>
+    <color name="xiyou_gray_bg">#e9e4df</color>
+    <color name="xiyou_coin_yellow">#ff8600</color>
+    <!-- 底部tab颜色 -->
+    <color name="home_tab_text_color_nor">#ffffff</color>
+    <color name="home_tab_text_color_pre">#ff5073</color>
+
+    <!-- 顶部tab 字体颜色 -->
+    <color name="top_tab_text_color_nor">#ffffff</color>
+    <color name="top_tab_text_color_pre">#ff5073</color>
+
+    <color name="xiyou_blue_o2o">#22a5f8</color>
+    <color name="chart_view_region">#60d7ad</color>
+
+    <!-- 图表颜色 -->
+    <color name="rcharview_balloon_indicator_color">#ff87a0</color>
+    <color name="rcharview_balloon_indicator_shadow_color">#4cffa800</color>
+    <color name="rcharview_balloon_indicator_disable_color">#bdbebe</color>
+    <color name="rcharview_painuan_indicator_color">#ffa800</color>
+    <color name="rcharview_grid_line_color">#ffe8e8e8</color>
+    <color name="rcharview_cover_range_blue">#2A7bbce6</color>
+    <color name="rcharview_cover_range_gray">#2Ab1b0b1</color>
+    <color name="rcharview_cover_range_green">#2A82e02f</color>
+    <color name="rcharview_cover_range_red">#2Afd8d8d</color>
+    <color name="rcharview_lable_color_light">#ffffff</color>
+    <color name="rcharview_lable_color_dark">#6c6155</color>
+    <color name="rcharview_circle_line_pink">#ff97ad</color>
+    <color name="rcharview_circle_line_green">#93e05c</color>
+    <color name="rcharview_circle_line_purple">#d795d3</color>
+    <color name="rcharview_circle_line_orange">#ff87a0</color>
+    <color name="xiyou_purple_color">#e2a0db</color>
+    <color name="column_gray">#fafafa</color>
+    <color name="xiyou_dotted_line">#ffecd4</color>
+    <color name="xiyou_yunqi_txt">#5edce8</color>
+    <color name="home_white_alpha">#c8065e8d</color>
+    <color name="wheel_line_color">#ebe5df</color>
+    <color name="wheel_line_color_night">#312c2f</color>
+    <color name="xiyou_keyboard_line">#DED9D1</color>
+    <color name="xiyou_love_line">#a09a95</color>
+    <!-- 我的界面标题的颜色-->
+    <color name="xiyou_my_activity_title_color">#6c6155</color>
+    <!-- 她他圈，贴士，任务分类标题颜色-->
+    <color name="xiyou_category_color">#6c6155</color>
+
+
+    <color name="schedule_track_time_line">#e9e9e9</color>
+    <color name="xiyou_my_mode_night">#ff87a0</color>
+
+    <color name="xiyou_white_50_percent_transparency">#88ffffff</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="xiyou_topic_diego_bg">#f5f5f5</color>
+    <color name="xiyou_darker_red">#cc405c</color>
+    <color name="tag_zhiding">#F16973</color>
+    <color name="tag_help">#ff855b</color>
+    <color name="tag_jing">#fdB659</color>
+    <color name="tag_recommend">#daa2de</color>
+    <color name="tag_new">#b7da5f</color>
+    <color name="tag_hot">#fd869f</color>
+    <color name="tag_yuan">#61D2FE</color>
+    <color name="tag_guan">#D26AD9</color>
+
+
+    <color name="publish_text_color">#fff000</color>
+    <color name="xiyou_blue_diefloor">#3668b2</color>
+
+    <color name="colorSearchingAnimViewDefault">#ffffff</color>
+
+
+</resources>

@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">智能手环</string>
+    <string name="action_settings">Settings</string>
+    <string name="home_title">智能手环</string>
+    <string name="set_title">设置</string>
+    <string name="police_button">报警开关</string>
+    <string name="search_title">搜索设备</string>
+    <string name="home_sphygmus">脉搏</string>
+    <string name="now_temperature">当前体温℃</string>
+    <string name="now_sphygmus">当前脉搏  次/分</string>
+    <string name="temperature_police_line">体温报警线 %$s ℃</string>
+    <string name="sphygmus_police_line">脉搏报警线 %$s 次/分</string>
+    <string name="search_start">点击按钮开始搜索</string>
+    <string name="search_srarching">正在努力搜索设备</string>
+    <string name="search_wrong">未搜索到设备，点击按钮重新搜索</string>
+    <string name="search_title_result">搜索结果</string>
+    <string name="temperature_set_police_line">体温报警线</string>
+    <string name="sphygmus_set_police_line">脉搏报警线</string>
+    <string name="police_set_time">报警时间</string>
+    <string name="set_music">铃声选择</string>
+    <string name="history_data">历史数据</string>
+    <string name="max_temperature">最高体温</string>
+    <string name="min_temperature">最低体温</string>
+    <string name="max_sphygmus">最高频率</string>
+    <string name="min_sphygmus">最低频率</string>
+    <!-- 蓝牙-->
+    <string name="please_open_blue">请先打开蓝牙</string>
+    <string name="notifyTitle">提示</string>
+    <string name="gpsNotifyMsg">当前手机扫描蓝牙需要打开定位功能。</string>
+    <string name="setting">前往设置</string>
+    <string name="cancel">取消</string>
+    <string name="connect_fail">连接失败</string>
+    <string name="disconnected">连接断开</string>
+    <string name="connect">连接</string>
+    <string name="connected">已连接</string>
+    <string name="disconnect">断开连接</string>
+    <string name="enter">进入操作</string>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_nor_start" >
+    <View
+        android:id="@+id/statusBarView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/history_list_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:src="@drawable/homepage_back" />
+
+        <TextView
+            android:textStyle="normal"
+            android:fontFamily="sans-serif-thin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/history_data"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+    </FrameLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#efefef"/>
+
+    <RadioGroup
+        android:id="@+id/history_list_rg"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/history_list_rb_t"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:button="@null"
+            android:checked="true"
+            android:text="体温"
+            android:textSize="16dp"
+            android:textColor="@color/bg_nor_start"
+            android:drawableBottom="@drawable/radio_temperature"
+            android:layout_height="match_parent" />
+
+        <RadioButton
+            android:id="@+id/history_list_rb_s"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:button="@null"
+            android:checked="false"
+            android:text="脉搏"
+            android:textColor="#b3b3b3"
+            android:textSize="16dp"
+            android:drawableBottom="@drawable/radio_temperature"
+            android:layout_height="match_parent" />
+    </RadioGroup>
+
+    <com.sanzitech.szitechwisebrave.ViewUtils.NoScrollViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f5f5f5" />
+</LinearLayout>

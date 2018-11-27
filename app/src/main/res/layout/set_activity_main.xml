@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_nor_start"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/statusBarView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/set_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:src="@drawable/homepage_back" />
+
+        <TextView
+            android:id="@+id/set_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/set_title"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F5F5F5"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:text="@string/police_button"
+                android:textColor="#4d4d4d"
+                android:textSize="15dp" />
+
+            <com.suke.widget.SwitchButton
+                android:id="@+id/set_switch_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="12dp"
+                app:sb_checked_color="#00C896"
+                app:sb_show_indicator="false" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:paddingLeft="12dp"
+                    android:text="@string/temperature_set_police_line"
+                    android:textColor="#4d4d4d"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/set_temperature_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginRight="12dp"
+                    android:gravity="center"
+                    android:text="37.0 ℃"
+                    android:textColor="#808080"
+                    android:textSize="15dp" />
+            </FrameLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="#F5F5F5" />
+            <com.sanzitech.szitechwisebrave.ViewUtils.BubbleSeekBar
+                android:id="@+id/set_temperature_BubbleSeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="5dp"
+                app:bsb_bubble_text_color="#E6E6E6"
+                app:bsb_is_float_type="true"
+                app:bsb_max="42.0"
+                app:bsb_min="35.0"
+                app:bsb_progress="38"
+                app:bsb_second_track_color="#00C896"
+                app:bsb_second_track_size="8dp"
+                app:bsb_section_count="70"
+                app:bsb_section_text_color="#b3b3b3"
+                app:bsb_section_text_position="bottom_sides"
+                app:bsb_section_text_size="14dp"
+                app:bsb_show_progress_in_float="true"
+                app:bsb_show_section_mark="true"
+                app:bsb_show_section_text="true"
+                app:bsb_show_thumb_text="false"
+                app:bsb_thumb_color="#E6E6E6"
+                app:bsb_thumb_radius="8dp"
+                app:bsb_track_color="#E6E6E6"
+                app:bsb_track_size="8dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:paddingLeft="12dp"
+                    android:text="@string/sphygmus_set_police_line"
+                    android:textColor="#4d4d4d"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/set_sphygmus_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginRight="12dp"
+                    android:gravity="center"
+                    android:text="100次/分"
+                    android:textColor="#808080"
+                    android:textSize="15dp" />
+            </FrameLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="#F5F5F5" />
+
+            <com.sanzitech.szitechwisebrave.ViewUtils.BubbleSeekBar
+                android:id="@+id/set_sphygmus_BubbleSeekBar"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="5dp"
+                app:bsb_bubble_text_color="#E6E6E6"
+                app:bsb_is_float_type="false"
+                app:bsb_max="50"
+                app:bsb_min="160"
+                app:bsb_progress="80"
+                app:bsb_second_track_color="#00C896"
+                app:bsb_second_track_size="8dp"
+                app:bsb_section_count="110"
+                app:bsb_section_text_color="#b3b3b3"
+                app:bsb_section_text_position="bottom_sides"
+                app:bsb_section_text_size="14dp"
+                app:bsb_show_progress_in_float="false"
+                app:bsb_show_section_mark="true"
+                app:bsb_show_section_text="true"
+                app:bsb_show_thumb_text="false"
+                app:bsb_thumb_color="#E6E6E6"
+                app:bsb_thumb_radius="8dp"
+                app:bsb_track_color="#E6E6E6"
+                app:bsb_track_size="8dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:paddingLeft="12dp"
+                    android:text="报警时间"
+                    android:textColor="#4d4d4d"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/set_time_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginRight="12dp"
+                    android:gravity="center"
+                    android:text="1分钟"
+                    android:textColor="#808080"
+                    android:textSize="15dp" />
+            </FrameLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="#F5F5F5" />
+
+            <com.sanzitech.szitechwisebrave.ViewUtils.BubbleSeekBar
+                android:id="@+id/set_time_BubbleSeekBar"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="5dp"
+                app:bsb_bubble_text_color="#E6E6E6"
+                app:bsb_is_float_type="false"
+                app:bsb_max="3"
+                app:bsb_min="1"
+                app:bsb_progress="2"
+                app:bsb_second_track_color="#00C896"
+                app:bsb_second_track_size="8dp"
+                app:bsb_section_count="2"
+                app:bsb_section_text_color="#b3b3b3"
+                app:bsb_section_text_position="bottom_sides"
+                app:bsb_section_text_size="14dp"
+                app:bsb_show_progress_in_float="false"
+                app:bsb_show_section_mark="true"
+                app:bsb_show_section_text="true"
+                app:bsb_show_thumb_text="false"
+                app:bsb_thumb_color="#E6E6E6"
+                app:bsb_thumb_radius="8dp"
+                app:bsb_auto_adjust_section_mark="true"
+                app:bsb_track_color="#E6E6E6"
+                app:bsb_track_size="8dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#ffffff">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/set_music"
+                    android:paddingLeft="12dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:textColor="#4d4d4d"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:id="@+id/set_music"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="默认   >"
+                    android:paddingLeft="12dp"
+                    android:textColor="#808080"
+                    android:layout_gravity="right"
+                    android:paddingRight="12dp"
+                    android:gravity="center"
+                    android:textSize="15dp"/>
+
+            </FrameLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
